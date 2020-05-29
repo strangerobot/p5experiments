@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>posenet</title>
+	<style>
+		body {
+      margin:0;
+			margin-left:45px;
+			padding:0;
+			overflow: hidden;
+		}
+		canvas {
+			margin:auto;
+		}
+	</style>
+</head>
+<body>
+
+</body>
+<div class="slidecontainer">
+  X:<input type="range" min="1" max="100" value="5" class="slider" id="x">
+   <span id="demo"></span>
+	Y:<input type="range" min="1" max="100" value="5" class="slider" id="y">
+	 <span id="demo"></span>
+	scale:<input type="range" min="0" max="100" value="1" class="slider" id="scaler">
+		<span id="demo"></span>
+</div>
+
+<script src="video.js"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="../libraries/p5.js"></script>
+<script src="../libraries/p5.dom.js"></script>
+<script src="../libraries/p5.sound.js"></script>
+<script src="character.js"></script>
+<script src="sketch.js"></script>
+</html>
